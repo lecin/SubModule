@@ -9,4 +9,9 @@ class SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub)
     }
+    
+    fun test() {
+        Toast toast = Toast.makeText(this, "Hello", Toast.LENGTH_SHORT);
+        toast.show();
+    }
 }
