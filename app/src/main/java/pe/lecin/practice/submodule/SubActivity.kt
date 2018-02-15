@@ -10,7 +10,7 @@ class SubActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sub)
     }
     
-    fun test() {
+    fun test(): Unit {
         Toast toast = Toast.makeText(this, "Hello", Toast.LENGTH_SHORT);
         toast.show();
     }
